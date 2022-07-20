@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family=Lato:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 60%;
+}
+.BarraNav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color:#A64B2A ;
+    margin:30px;
+    padding: 30px;
+}
+
+
+h1{
+    margin-bottom: 40px;
+    color white-space: nowrap;
+
+    
+}
+header{
+    background-color:#809A6F;
+    margin: 50px;
+    padding: 30px;
+}
+
+body{background-color:white;
+    width: 100%;
+    height: 200px;
+    display: flex;   
+    align-content: center;
+    display: inline;
+ }  
+
+ div img{ 
+    border-radius: 15%;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+
+}
+
+ nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ 
+ }
+
+ .imagen{
+
+ }
+ main{ margin-top: 40px;
+}
+footer{background-color: beige;
+     margin-top: 40px;}
+ 
+    .formulariodecontacto{
+        background-color: burlywood;
+        
+    }
+    form{margin: 40px;}
+    
+.piedepagina{
+    background-color: white;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+    justify-content: center;
+    justify-content: space-between;
+    grid-template-areas:
+    "header header"
+    "titulo titulo"
+    "foto foto"
+    "foto foto"
+    "footer footer"
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+   
+
+
+footer{
+    margin: 50px;
+    padding: 40px;
+}
+
+.galeria1{
+    grid-area: imagen1;
+    flex-direction: row;
+    justify-content: center;
+}
+.galeria2{
+    grid-area: imagen2;
+}
+.galeria{
+    grid-area: imagen3;
+}
+.galeria{
+    grid-area: imagen4;
+}
+.galeria{
+    grid-area: imagen5;
+}
+
+.boton{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    margin: 60px auto;
+}
+.boton1{
+    background-color: aliceblue;
+}
+ .boton2{
+    background-color: aliceblue;
+ }
